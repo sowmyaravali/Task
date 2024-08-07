@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap');
+
+
+body {
+    font-family: "DM Sans", sans-serif;
+    ;
+}
+
+.accordion {
+
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.number {
+    width: auto;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-top: 10px;
+    color: gray;
+}
+
+.accordion-item {
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #f7f7f7;
+    gap: 20px;
+    overflow: hidden;
+    transition: flex 0.3s;
+    border-radius: 8px;
+}
+
+.accordion-item:last-child {
+    border-right: none;
+}
+
+.accordion-header {
+    width: 40px;
+    height: 350px;
+    background-color: #f7f7f7;
+    color: #6d6e6f;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    writing-mode: vertical-lr;
+
+}
+
+.accordion-content {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #183D3D;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: dm-sans, sans-serif;
+    color: #cecccc;
+    display: none;
+    padding: 15px;
+}
+
+.line {
+    width: 80%;
+    height: 1px;
+    background-color: #cecccc;
+}
