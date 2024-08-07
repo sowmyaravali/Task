@@ -3,7 +3,6 @@
 
 body {
     font-family: "DM Sans", sans-serif;
-    ;
 }
 
 .accordion {
@@ -25,7 +24,7 @@ body {
     align-items: center;
     font-weight: bold;
     padding-top: 10px;
-    color: gray;
+    /* color: gray; */
 }
 
 .accordion-item {
@@ -33,7 +32,6 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-
     background-color: #f7f7f7;
     gap: 20px;
     overflow: hidden;
@@ -47,7 +45,7 @@ body {
 
 .accordion-header {
     width: 40px;
-    height: 350px;
+    height: 300px;
     background-color: #f7f7f7;
     color: #6d6e6f;
     padding: 15px;
